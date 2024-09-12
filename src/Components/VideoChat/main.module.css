@@ -1,0 +1,62 @@
+.outer {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  z-index: 1;
+}
+
+.remote {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.local {
+  width: 100%;
+  height: auto;
+}
+
+.remoteVideo,
+.localVideo {
+  width: 100%;
+  height: auto;
+}
+
+.connect {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.controls {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  bottom: 34px;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay h2 {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100%;
+  font-size: medium;
+}
+
+img {
+  width: 30px;
+}
+
+button {
+  cursor: pointer;
+}
