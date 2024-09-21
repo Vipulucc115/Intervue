@@ -3,7 +3,7 @@ import ReconnectingWebSocket from "reconnecting-websocket";
 import VideoChatComponent from "../Components/VideoChat/videoChatComponent";
 import VideoHelper from "./VideoHelper";
 
-const websocketURL = "wss://codeeditor-backend.fly.dev";
+const websocketURL = process.env.REACT_APP_WEB_SOCKET_URL;
 
 class VideoChat extends Component {
   constructor(props) {
